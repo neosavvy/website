@@ -4,7 +4,8 @@
   "description": "Neosavvy Homepage",
   "main": "index.js",
   "scripts": {
-    "start": "./start.sh"
+    "start": "./start.sh",
+    "deploy": "ansible-playbook -u ec2-user --private-key=~/.ssh/AdamsMacbookPro2016.pem -i ansible/hosts/prod ./ansible/production.yml -vvvv"
   },
   "repository": {
     "type": "git",
