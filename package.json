@@ -1,0 +1,19 @@
+{
+  "name": "neosavvy-homepage",
+  "version": "1.0.0",
+  "description": "Neosavvy Homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neosavvy/website.git"
+  },
+  "author": "Adam Parrish and Trevor Ewen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosavvy/website/issues"
+  },
+  "homepage": "https://github.com/neosavvy/website"
+}
